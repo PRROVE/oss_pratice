@@ -2,6 +2,13 @@
 
 def add(num1,num2):
     return num1+num2
+def sub(num1,num2):
+    return num1-num2
+def mul(num1,num2):
+    return num1*num2
+def div(num1,num2):
+    num1/num2
+
 
 # 숫자 두 개를 한 줄에 입력 (예: 3 5)
 num1,num2 = map(int,input("숫자 두 개를 입력하세요: ").split())
@@ -14,14 +21,14 @@ if op == 1:
     print("결과:", print(add(num1+num2)))
 
 elif op == 2:
-    print("결과:", num1 - num2)
+    print("결과:",print(sub(num1+num2)))
 
 elif op == 3:
-    print("결과:", num1 * num2)
+    print("결과:", print(mul(num1+num2)))
 
 elif op == 4:
     if num2 != 0:
-        print("결과:", num1 / num2)
+        print("결과:", print(div(num1+num2)))
     else:
         print("0으로 나눌 수 없습니다.")
 
